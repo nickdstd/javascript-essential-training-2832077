@@ -22,3 +22,32 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+
+
+const bottle = {
+  bottlename: "Thermos",
+  volume: 500,
+  color: "yellow", 
+isolation: {
+  cold: 12,
+  warm: 6,
+},
+};
+
+console.log("The bottle inside of it:", bottle);
+
+
+
+
+const bottle2 ={
+  bottlename: "bike bottle",
+  volume: 550,
+  color:"yellow",
+  isolation:{
+    cold:"none",
+    warm:"none",
+  
+  },
+};
+
+console.log("Or:",bottle2);

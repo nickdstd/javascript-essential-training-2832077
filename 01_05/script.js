@@ -9,7 +9,7 @@ See! this line is also commented out! */
 
 const updateBackpack = (update) => {
   let main = document.querySelector("main"); // main is an element
-  main.innerHTML = markup(backpack);
+            main.innerHTML = markup(backpack);
   console.info(update);
 };
 
@@ -54,3 +54,7 @@ const markup = (backpack) => {
 const main = document.createElement("main");
 main.innerHTML = markup(backpack);
 document.body.appendChild(main);
+
+
+var height;
+height = 183
